@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+	background-color: white;
+}
+.container{
+	width: 90%;
+	/*height: 100px;*/
+    /*background-position: center;*/
+    margin: auto;
+
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	padding: 5px 0;
+	background-color: #333;
+}
+nav.logo {
+	float: left;
+	border: 0px;
+}
+nav ul {
+	display: flex;
+	float: right;
+	margin-top: 15px;
+}
+nav ul li {
+	float: right;
+	list-style: none;
+	padding: 5px;
+}
+nav ul li a {
+	font-family: nunito,bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #43d17e;
+	text-decoration: none;
+
+}
+.container.floatable {
+ position: fixed;
+ top: 10px;
+ }
+ /*header {
+ 	background-color: #C4C4C4;
+ 	width: 100%;
+	height: 270px;
+	border: 0px;
+	border-radius: 0%;
+	padding: 25px 0px;
+	text-align: center;
+ }*/
+ .centercolumn{
+	width:100%;
+	height:320px;
+	background-color:#F0F1F4;
+	/*background-image:url(https://www.itweapons.com/wp-content/uploads/2019/10/cybersecurity-in-canada.png);*/
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
+	padding-top: 65px;
+}
+header div p {
+	display: inline-flex;
+	margin-top: 15px;
+}
+ header div h1,p {
+	text-align: center;
+	margin-top: 3px ;
+	padding: 20px 0px 5px;
+	color:black
+ }
+/*div#home[role="main"] ul#tiles-panel li {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0 8px 8px 0;
+    vertical-align: top;
+}*/
+.tile {
+    box-sizing: border-box;
+    background: #F0F1F4;
+    border-bottom: 3px solid #43d17e;
+    display: inline-block;
+    height: 176px;
+    text-decoration: none;
+    width: 176px;
+    border-radius:50px;
+
+}
+ div ul {
+ 	display: flex;
+ 	list-style: none;
+ 	padding: 0px 0px 60px 0px;
+ 	justify-content: center;
+ }
+li {
+ 	display: flex;
+ 	padding: 0 50px 0 50px;
+}
+ .tile a {
+ 	display: flex;
+ 	justify-content: stretch;
+ }
+.tile h1 {
+    color: #43d17e;
+    display: block;
+    font-family: nunito;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 148%;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow : ellipsis;
+    overflow : hidden;
+    text-align : center;
+}
+ 
+.tile img {
+    left: 55%;
+    margin: 5px 0 10px -25px;
+    position: relative;
+}
+ 
+.tile p {
+    color: black;
+    font-family: nunito;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 148%;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+}
+
+ /*body .services h2 {
+ 	text-align: center;
+ }*/
+ .boxes{ 
+ 	display: block;
+ 
+
+}
+
+.boxes h2{
+	display: flex;
+	color: #43d17e 
+} 
+.functxt p {
+	margin: 20px 20px 5px;
+	color: black;
+	padding-top: 5px;
+	text-align: justify;
+}
+.funcs {
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.func{
+	display: flex;
+    /* float: left; */
+    justify-content: space-around;
+    width: 100%; 
+    margin-bottom: 50px;
+    background-color: #F0F1F4;
+    border-radius:30px;
+
+}
+
+.func.reverse{
+	flex-direction: row-reverse;
+	background-color: #F0F1F4;
+	border-radius:30px;
+}
+
+.funcimg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*padding-left:250px ;*/
+}
+
+.functxt{
+	width: 40%
+}
+.functxt h2 {
+	justify-content: center;
+}
+
